@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDCC13811A4B55C90038BFBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCC13801A4B55C90038BFBA /* AppDelegate.swift */; };
+		DDCC13831A4B55C90038BFBA /* FTPDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCC13821A4B55C90038BFBA /* FTPDocument.swift */; };
+		DDCC13861A4B55C90038BFBA /* FTPDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDCC13841A4B55C90038BFBA /* FTPDocument.xib */; };
+		DDCC13881A4B55C90038BFBA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDCC13871A4B55C90038BFBA /* Images.xcassets */; };
+		DDCC138B1A4B55C90038BFBA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDCC13891A4B55C90038BFBA /* MainMenu.xib */; };
+		DDCC13A21A4B57AD0038BFBA /* FTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCC13A11A4B57AD0038BFBA /* FTPClient.swift */; };
+		DDCC13A51A4BB8120038BFBA /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCC13A41A4BB8120038BFBA /* StringExtensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DDCC137B1A4B55C90038BFBA /* SwiFTP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiFTP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDCC137F1A4B55C90038BFBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDCC13801A4B55C90038BFBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDCC13821A4B55C90038BFBA /* FTPDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTPDocument.swift; sourceTree = "<group>"; };
+		DDCC13851A4B55C90038BFBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/FTPDocument.xib; sourceTree = "<group>"; };
+		DDCC13871A4B55C90038BFBA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DDCC138A1A4B55C90038BFBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DDCC13A11A4B57AD0038BFBA /* FTPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FTPClient.swift; path = "FTP Client Code/FTPClient.swift"; sourceTree = "<group>"; };
+		DDCC13A41A4BB8120038BFBA /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDCC13781A4B55C90038BFBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDCC13721A4B55C90038BFBA = {
+			isa = PBXGroup;
+			children = (
+				DDCC137D1A4B55C90038BFBA /* SwiFTP */,
+				DDCC137C1A4B55C90038BFBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDCC137C1A4B55C90038BFBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDCC137B1A4B55C90038BFBA /* SwiFTP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDCC137D1A4B55C90038BFBA /* SwiFTP */ = {
+			isa = PBXGroup;
+			children = (
+				DDCC13A31A4BB8060038BFBA /* Extensions */,
+				DDCC13A01A4B578D0038BFBA /* FTP Client Code */,
+				DDCC13801A4B55C90038BFBA /* AppDelegate.swift */,
+				DDCC13821A4B55C90038BFBA /* FTPDocument.swift */,
+				DDCC13841A4B55C90038BFBA /* FTPDocument.xib */,
+				DDCC13871A4B55C90038BFBA /* Images.xcassets */,
+				DDCC13891A4B55C90038BFBA /* MainMenu.xib */,
+				DDCC137E1A4B55C90038BFBA /* Supporting Files */,
+			);
+			path = SwiFTP;
+			sourceTree = "<group>";
+		};
+		DDCC137E1A4B55C90038BFBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDCC137F1A4B55C90038BFBA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDCC13A01A4B578D0038BFBA /* FTP Client Code */ = {
+			isa = PBXGroup;
+			children = (
+				DDCC13A11A4B57AD0038BFBA /* FTPClient.swift */,
+			);
+			name = "FTP Client Code";
+			sourceTree = "<group>";
+		};
+		DDCC13A31A4BB8060038BFBA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DDCC13A41A4BB8120038BFBA /* StringExtensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDCC137A1A4B55C90038BFBA /* SwiFTP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDCC139A1A4B55C90038BFBA /* Build configuration list for PBXNativeTarget "SwiFTP" */;
+			buildPhases = (
+				DDCC13771A4B55C90038BFBA /* Sources */,
+				DDCC13781A4B55C90038BFBA /* Frameworks */,
+				DDCC13791A4B55C90038BFBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiFTP;
+			productName = SwiFTP;
+			productReference = DDCC137B1A4B55C90038BFBA /* SwiFTP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDCC13731A4B55C90038BFBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Guilherme Rambo";
+				TargetAttributes = {
+					DDCC137A1A4B55C90038BFBA = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = DDCC13761A4B55C90038BFBA /* Build configuration list for PBXProject "SwiFTP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDCC13721A4B55C90038BFBA;
+			productRefGroup = DDCC137C1A4B55C90038BFBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDCC137A1A4B55C90038BFBA /* SwiFTP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDCC13791A4B55C90038BFBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCC13861A4B55C90038BFBA /* FTPDocument.xib in Resources */,
+				DDCC13881A4B55C90038BFBA /* Images.xcassets in Resources */,
+				DDCC138B1A4B55C90038BFBA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDCC13771A4B55C90038BFBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCC13A51A4BB8120038BFBA /* StringExtensions.swift in Sources */,
+				DDCC13831A4B55C90038BFBA /* FTPDocument.swift in Sources */,
+				DDCC13811A4B55C90038BFBA /* AppDelegate.swift in Sources */,
+				DDCC13A21A4B57AD0038BFBA /* FTPClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DDCC13841A4B55C90038BFBA /* FTPDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDCC13851A4B55C90038BFBA /* Base */,
+			);
+			name = FTPDocument.xib;
+			sourceTree = "<group>";
+		};
+		DDCC13891A4B55C90038BFBA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDCC138A1A4B55C90038BFBA /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDCC13981A4B55C90038BFBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDCC13991A4B55C90038BFBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DDCC139B1A4B55C90038BFBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SwiFTP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDCC139C1A4B55C90038BFBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SwiFTP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDCC13761A4B55C90038BFBA /* Build configuration list for PBXProject "SwiFTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDCC13981A4B55C90038BFBA /* Debug */,
+				DDCC13991A4B55C90038BFBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDCC139A1A4B55C90038BFBA /* Build configuration list for PBXNativeTarget "SwiFTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDCC139B1A4B55C90038BFBA /* Debug */,
+				DDCC139C1A4B55C90038BFBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDCC13731A4B55C90038BFBA /* Project object */;
+}
